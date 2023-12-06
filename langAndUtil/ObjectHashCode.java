@@ -1,6 +1,6 @@
 package langAndUtil;
 
-public class objectHashCode {
+public class ObjectHashCode {
     public static void main(String[] args) {
         String str1 = new String("abc");
         String str2 = new String("abc");

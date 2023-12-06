@@ -1,6 +1,6 @@
 package langAndUtil;
 
-public class objectToStringOverriding {
+public class ObjectToStringOverriding {
 
     public static void main(String[] args) {
         Card2 c1 = new Card2();

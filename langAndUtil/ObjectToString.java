@@ -1,6 +1,6 @@
 package langAndUtil;
 
-public class objectToString {
+public class ObjectToString {
     public static void main(String[] args) {
         Card c1 = new Card();
         Card c2 = new Card();
