@@ -218,6 +218,16 @@ public class ObjectStringClassMethodAndConstructs {
         System.out.println(h5);
         System.out.println(dd);
 
-
+        /*
+        기본형 값을 String으로 변환
+        숫자로 이루어진 문자열을 숫자로, 또는 그 반대로 변환하는 경우가 자주 있다.
+        이미 배운 것과 같이 기본형을 문자열로 변경하는 방법은 간단하다.
+        숫자에 빈 문자열""을 더해주기만 하면 된다.
+        이 외에도 valueOf()를 사용하는 방법도 있다.
+        성능은 valueOf()가 더 좋지만, 빈 문자열을 더하는 방법이 간단하고 편하기 때문에 성능향상이 필요한 경우에만 valueOf()를 쓰자.
+        */
+        int k = 100;
+        String str100 = k+""; // 100을 "100"으로 변환하는 방법1
+        String str1002 = String.valueOf(str100); // 100을 "100"으로 변환하는 방법2
     }
 }
